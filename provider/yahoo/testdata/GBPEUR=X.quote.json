@@ -1,0 +1,231 @@
+{
+  "quoteSummary": {
+    "result": [
+      {
+        "summaryDetail": {
+          "maxAge": 1,
+          "priceHint": {
+            "raw": 4,
+            "fmt": "4",
+            "longFmt": "4"
+          },
+          "previousClose": {
+            "raw": 1.16975,
+            "fmt": "1.1697"
+          },
+          "open": {
+            "raw": 1.16975,
+            "fmt": "1.1697"
+          },
+          "dayLow": {
+            "raw": 1.1693,
+            "fmt": "1.1693"
+          },
+          "dayHigh": {
+            "raw": 1.17581,
+            "fmt": "1.1758"
+          },
+          "regularMarketPreviousClose": {
+            "raw": 1.16975,
+            "fmt": "1.1697"
+          },
+          "regularMarketOpen": {
+            "raw": 1.16975,
+            "fmt": "1.1697"
+          },
+          "regularMarketDayLow": {
+            "raw": 1.1693,
+            "fmt": "1.1693"
+          },
+          "regularMarketDayHigh": {
+            "raw": 1.17581,
+            "fmt": "1.1758"
+          },
+          "dividendRate": {},
+          "dividendYield": {},
+          "exDividendDate": {},
+          "payoutRatio": {},
+          "fiveYearAvgDividendYield": {},
+          "beta": {},
+          "forwardPE": {},
+          "volume": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "regularMarketVolume": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "averageVolume": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "averageVolume10days": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "averageDailyVolume10Day": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "bid": {
+            "raw": 1.1752,
+            "fmt": "1.1752"
+          },
+          "ask": {
+            "raw": 1.17552,
+            "fmt": "1.1755"
+          },
+          "bidSize": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "askSize": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "marketCap": {},
+          "yield": {},
+          "ytdReturn": {},
+          "totalAssets": {},
+          "expireDate": {},
+          "strikePrice": {},
+          "openInterest": {},
+          "fiftyTwoWeekLow": {
+            "raw": 1.1246,
+            "fmt": "1.1246"
+          },
+          "fiftyTwoWeekHigh": {
+            "raw": 1.17709,
+            "fmt": "1.1771"
+          },
+          "priceToSalesTrailing12Months": {},
+          "fiftyDayAverage": {
+            "raw": 1.1667266,
+            "fmt": "1.1667"
+          },
+          "twoHundredDayAverage": {
+            "raw": 1.1612736,
+            "fmt": "1.1613"
+          },
+          "trailingAnnualDividendRate": {},
+          "trailingAnnualDividendYield": {},
+          "navPrice": {},
+          "currency": "EUR",
+          "fromCurrency": null,
+          "toCurrency": null,
+          "lastMarket": null,
+          "coinMarketCapLink": null,
+          "volume24Hr": {},
+          "volumeAllCurrencies": {},
+          "circulatingSupply": {},
+          "algorithm": null,
+          "maxSupply": {},
+          "startDate": {},
+          "tradeable": false
+        },
+        "quoteType": {
+          "exchange": "CCY",
+          "quoteType": "CURRENCY",
+          "symbol": "GBPEUR=X",
+          "underlyingSymbol": "GBPEUR=X",
+          "shortName": "GBP/EUR",
+          "longName": "GBP/EUR",
+          "firstTradeDateEpochUtc": 1063753200,
+          "timeZoneFullName": "Europe/London",
+          "timeZoneShortName": "GMT",
+          "uuid": "80b5f91e-f862-3604-aaa7-4b0824761c5e",
+          "messageBoardId": "finmb_GBPEUR_X",
+          "gmtOffSetMilliseconds": 0,
+          "maxAge": 1
+        },
+        "price": {
+          "maxAge": 1,
+          "preMarketChange": {},
+          "preMarketPrice": {},
+          "postMarketChange": {},
+          "postMarketPrice": {},
+          "regularMarketChangePercent": {
+            "raw": 0.004659124,
+            "fmt": "0.4659%"
+          },
+          "regularMarketChange": {
+            "raw": 0.0054500103,
+            "fmt": "0.0055"
+          },
+          "regularMarketTime": 1709932816,
+          "priceHint": {
+            "raw": 4,
+            "fmt": "4",
+            "longFmt": "4"
+          },
+          "regularMarketPrice": {
+            "raw": 1.1752,
+            "fmt": "1.1752"
+          },
+          "regularMarketDayHigh": {
+            "raw": 1.17581,
+            "fmt": "1.1758"
+          },
+          "regularMarketDayLow": {
+            "raw": 1.1693,
+            "fmt": "1.1693"
+          },
+          "regularMarketVolume": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0.0000"
+          },
+          "averageDailyVolume10Day": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "averageDailyVolume3Month": {
+            "raw": 0,
+            "fmt": null,
+            "longFmt": "0"
+          },
+          "regularMarketPreviousClose": {
+            "raw": 1.16975,
+            "fmt": "1.1697"
+          },
+          "regularMarketSource": "DELAYED",
+          "regularMarketOpen": {
+            "raw": 1.16975,
+            "fmt": "1.1697"
+          },
+          "strikePrice": {},
+          "openInterest": {},
+          "exchange": "CCY",
+          "exchangeName": "CCY",
+          "exchangeDataDelayedBy": 0,
+          "marketState": "REGULAR",
+          "quoteType": "CURRENCY",
+          "symbol": "GBPEUR=X",
+          "underlyingSymbol": null,
+          "shortName": "GBP/EUR",
+          "longName": "GBP/EUR",
+          "currency": "EUR",
+          "quoteSourceName": "Delayed Quote",
+          "currencySymbol": "€",
+          "fromCurrency": null,
+          "toCurrency": null,
+          "lastMarket": null,
+          "volume24Hr": {},
+          "volumeAllCurrencies": {},
+          "circulatingSupply": {},
+          "marketCap": {}
+        }
+      }
+    ],
+    "error": null
+  }
+}

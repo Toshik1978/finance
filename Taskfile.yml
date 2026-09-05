@@ -1,0 +1,55 @@
+version: "3"
+
+vars:
+  BINARY: bin/finance
+  # Coverage gate scope: everything except the composition root. The provider
+  # packages ARE included — their transport is fully driven through httpmock,
+  # so unlike a hardware adapter they are genuinely coverable.
+  COVERPKG: ./,./civil,./storage/...,./provider/...,./internal/cli
+  BUILDSTAMP:
+    sh: date +%Y/%m/%d_%H:%M:%S
+  COMMIT:
+    sh: git rev-parse --short HEAD 2>/dev/null || echo unknown
+
+tasks:
+  setup:
+    desc: Download Go module dependencies
+    cmd: go mod download
+
+  lint:
+    desc: Run golangci-lint
+    cmd: golangci-lint run
+
+  format:
+    desc: Format the codebase
+    cmds:
+      - golangci-lint fmt
+      - golangci-lint run --fix
+
+  test:
+    desc: Run unit tests
+    cmd: go test -v ./...
+
+  test:coverage:
+    desc: Run all unit tests with the race detector and coverage over the gate scope
+    cmd: >-
+      go test -race
+      -coverpkg={{.COVERPKG}}
+      -coverprofile=coverage.txt -covermode=atomic ./...
+
+  build:
+    desc: Compile the finance binary
+    cmds:
+      - rm -f {{.BINARY}}
+      - >-
+        CGO_ENABLED=0 GOGC=off go build -v
+        -ldflags "-X main.Buildstamp={{.BUILDSTAMP}} -X main.Commit={{.COMMIT}}"
+        -o {{.BINARY}} ./cmd/finance
+    generates:
+      - "{{.BINARY}}"
+
+  clean:
+    desc: Remove build artifacts and test cache
+    cmds:
+      - go clean -testcache
+      - rm -f {{.BINARY}} coverage.txt

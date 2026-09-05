@@ -1,0 +1,44 @@
+# Install with `pre-commit install`. That alone only wires the pre-commit
+# stage, which would leave the commit-msg and pre-push hooks dormant —
+# declaring the hook types here is what makes one command enough.
+default_install_hook_types: [pre-commit, pre-push, commit-msg]
+
+repos:
+- repo: https://github.com/compilerla/conventional-pre-commit
+  rev: v4.4.0
+  hooks:
+    - id: conventional-pre-commit
+      stages:
+        - commit-msg
+
+- repo: local
+  hooks:
+    # Cheap enough for every commit; a nuisance to discover later.
+    - id: golangci-lint-fmt
+      name: golangci-lint fmt --diff
+      entry: golangci-lint fmt --diff
+      language: system
+      types: [go]
+      pass_filenames: false
+      stages:
+        - pre-commit
+
+    # Pre-push, not earlier: these are the full CI gates, minutes rather than
+    # seconds, and pushing is the first point at which anyone else sees the
+    # commits. Putting them on pre-commit is the surest way to breed the
+    # `--no-verify` habit that makes the hooks worthless.
+    - id: lint
+      name: task lint
+      entry: task lint
+      language: system
+      pass_filenames: false
+      stages:
+        - pre-push
+
+    - id: tests
+      name: task test
+      entry: task test
+      language: system
+      pass_filenames: false
+      stages:
+        - pre-push

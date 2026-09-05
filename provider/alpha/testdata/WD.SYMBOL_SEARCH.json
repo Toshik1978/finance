@@ -1,0 +1,114 @@
+{
+  "bestMatches": [
+    {
+      "1. symbol": "WD",
+      "2. name": "Walker & Dunlop Inc",
+      "3. type": "Equity",
+      "4. region": "United States",
+      "5. marketOpen": "09:30",
+      "6. marketClose": "16:00",
+      "7. timezone": "UTC-04",
+      "8. currency": "USD",
+      "9. matchScore": "1.0000"
+    },
+    {
+      "1. symbol": "WDC",
+      "2. name": "Western Digital Corp",
+      "3. type": "Equity",
+      "4. region": "United States",
+      "5. marketOpen": "09:30",
+      "6. marketClose": "16:00",
+      "7. timezone": "UTC-04",
+      "8. currency": "USD",
+      "9. matchScore": "0.8000"
+    },
+    {
+      "1. symbol": "WDAY",
+      "2. name": "Workday Inc - Class A",
+      "3. type": "Equity",
+      "4. region": "United States",
+      "5. marketOpen": "09:30",
+      "6. marketClose": "16:00",
+      "7. timezone": "UTC-04",
+      "8. currency": "USD",
+      "9. matchScore": "0.6667"
+    },
+    {
+      "1. symbol": "WDBG",
+      "2. name": "Woodbrook Group Holdings Inc",
+      "3. type": "Equity",
+      "4. region": "United States",
+      "5. marketOpen": "09:30",
+      "6. marketClose": "16:00",
+      "7. timezone": "UTC-04",
+      "8. currency": "USD",
+      "9. matchScore": "0.6667"
+    },
+    {
+      "1. symbol": "WD0.FRK",
+      "2. name": "SMART VALOR AG SDR./1",
+      "3. type": "Equity",
+      "4. region": "Frankfurt",
+      "5. marketOpen": "08:00",
+      "6. marketClose": "20:00",
+      "7. timezone": "UTC+02",
+      "8. currency": "EUR",
+      "9. matchScore": "0.5714"
+    },
+    {
+      "1. symbol": "WD1.FRK",
+      "2. name": "WD-40 Company",
+      "3. type": "Equity",
+      "4. region": "Frankfurt",
+      "5. marketOpen": "08:00",
+      "6. marketClose": "20:00",
+      "7. timezone": "UTC+02",
+      "8. currency": "EUR",
+      "9. matchScore": "0.5714"
+    },
+    {
+      "1. symbol": "WD3.FRK",
+      "2. name": "WASHINGTON H.SOUL PAT.+CO",
+      "3. type": "Equity",
+      "4. region": "Frankfurt",
+      "5. marketOpen": "08:00",
+      "6. marketClose": "20:00",
+      "7. timezone": "UTC+02",
+      "8. currency": "EUR",
+      "9. matchScore": "0.5714"
+    },
+    {
+      "1. symbol": "WD4.FRK",
+      "2. name": "WANDISCO PLC LS -10",
+      "3. type": "Equity",
+      "4. region": "Frankfurt",
+      "5. marketOpen": "08:00",
+      "6. marketClose": "20:00",
+      "7. timezone": "UTC+02",
+      "8. currency": "EUR",
+      "9. matchScore": "0.5714"
+    },
+    {
+      "1. symbol": "WD9.FRK",
+      "2. name": "LI3 LITHIUM CORP.",
+      "3. type": "Equity",
+      "4. region": "Frankfurt",
+      "5. marketOpen": "08:00",
+      "6. marketClose": "20:00",
+      "7. timezone": "UTC+02",
+      "8. currency": "EUR",
+      "9. matchScore": "0.5714"
+    },
+    {
+      "1. symbol": "WD5A.FRK",
+      "2. name": "TRAVEL + LEISURE DL-01",
+      "3. type": "Equity",
+      "4. region": "Frankfurt",
+      "5. marketOpen": "08:00",
+      "6. marketClose": "20:00",
+      "7. timezone": "UTC+02",
+      "8. currency": "EUR",
+      "9. matchScore": "0.5000"
+    }
+  ]
+}

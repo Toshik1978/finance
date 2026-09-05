@@ -1,0 +1,10 @@
+finance
+Copyright 2026 Anton Krivenko
+
+This product includes software developed at Google LLC.
+
+civil/date.go is derived from cloud.google.com/go/civil, licensed under the
+Apache License, Version 2.0. The file has been modified: the Time and DateTime
+types were removed, and the Between, IsZero, Scan and Value methods and a
+lenient UnmarshalText were added. A copy of the Apache License is available at
+http://www.apache.org/licenses/LICENSE-2.0
