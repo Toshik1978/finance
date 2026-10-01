@@ -113,9 +113,7 @@ These rules apply to every task. Non-negotiable.
    prefix `feature/` (e.g. `feature/quote-cache`). Never `feat/`, `feat-`, or
    any other variant.
 
-5. **Commit Messages**: Conventional Commits subjects. Never add
-   `Co-Authored-By` and/or `Claude-Session` trailers — no AI/agent
-   attribution trailers of any kind.
+5. **Commit Messages**: Conventional Commits subjects.
 
 ---
 
