@@ -185,13 +185,11 @@ func (s *storageSuite) TestConcurrentAccessSharesTheSameDatabase() {
 	errs := make([]error, parallel)
 
 	var wg sync.WaitGroup
-	wg.Add(parallel)
 	for i := range errs {
-		go func(i int) {
-			defer wg.Done()
+		wg.Go(func() {
 			<-start
 			_, errs[i] = s.st.Rate(context.Background(), day(1), "USD", "EUR")
-		}(i)
+		})
 	}
 	close(start)
 	wg.Wait()
