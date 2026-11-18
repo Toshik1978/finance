@@ -1,0 +1,11 @@
+# gitleaks configuration: the default rules plus narrow allowlists for known
+# false positives (exact path AND exact value, never a broad path).
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Fake Alpha Vantage key in the provider test"
+condition = "AND"
+paths = ['''^provider/alpha/alpha_test\.go$''']
+regexTarget = "secret"
+regexes = ['''^test-api-key-a1b2c3$''']
